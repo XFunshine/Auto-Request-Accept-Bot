@@ -10,7 +10,7 @@ pr0fess0r_99=Client(
 )
 
 CHAT_ID=int(os.environ.get("CHAT_ID", None))
-TEXT=os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
+TEXT=os.environ.get("APPROVED_WELCOME_TEXT", "👋 𝗛𝗲𝗹𝗹𝗼 {mention}, Welcome to 𝗔𝗻𝗶𝗺𝗲𝗔𝗿𝗶𝘀𝗲 \n\n 🔰 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 𝗴𝗲𝘁 𝗯𝘆 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 𝗔𝗻𝗶𝗺𝗲𝗔𝗿𝗶𝘀𝗲? \n 1⃣ All your favourite anime in different audio like English Hindi Tamil etc \n 2⃣ Anime with a Complete Season or Ongoing Episode \n 3⃣ Watch Now and Download link of all the anime \n\n ✊ 𝗕𝗲𝗰𝗼𝗺𝗲 𝗮 𝗺𝗲𝗺𝗯𝗲𝗿 𝗼𝗳 𝗼𝘂𝗿 𝗔𝗻𝗶𝗺𝗲𝗔𝗿𝗶𝘀𝗲 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆? \n 1⃣ Request any anime which you want to watch. \n 2⃣ If the anime is available our Bot will provide you the link. \n 3⃣ Chat with Other Anime Lovers. \n 🔰 Anime online dekhe Hindi English Tamil etc languages me \n ♥️ Our Community Joining Link 👇\n https://t.me/AnimeArise \n https://t.me/AnimeArise \n https://t.me/AnimeArise \n\n 🔰 𝗦𝗲𝗻𝗱 /start 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗺𝗼𝗿𝗲 𝗮𝗯𝗼𝘂𝘁 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁.")
 APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 
 @pr0fess0r_99.on_message(filters.private & filters.command(["start"]))
